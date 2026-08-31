@@ -6,15 +6,15 @@ from bs4 import BeautifulSoup
 BASE_URL = "https://dlstreams.st"
 HEADERS = {
     "User-Agent": (
-        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like"
-        " Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,"
+        " like Gecko) Chrome/124.0.0.0 Safari/537.36"
     ),
     "Referer": f"{BASE_URL}/",
 }
 
 
-def obtener_eventos_por_categoria():
-  groups = []
+def obtener_eventos():
+  grupos_dict = {}
   session = requests.Session()
 
   try:
@@ -22,103 +22,84 @@ def obtener_eventos_por_categoria():
     if res.status_code == 200:
       soup = BeautifulSoup(res.text, "html.parser")
 
-      # Buscar los contenedores o bloques de cada deporte en la web
-      # (La web organiza los eventos por divs de categoría o tablas)
-      cajas_deporte = soup.find_all(
-          ["div", "table"], class_=re.compile(r"schedule|category|event", re.I)
-      )
+      # Buscamos cada enlace de partido dentro de su contenedor de evento
+      for a in soup.find_all("a", href=re.compile(r"watch\.php\?id=")):
+        # Forzar extracción del texto limpio ignorando etiquetas hijas desalineadas
+        title = " ".join(a.stripped_strings)
+        link = a.get("href", "")
 
-      # Si la web usa acordeones o headers para separar categorías:
-      headers_deporte = soup.find_all(
-          ["h2", "h3", "h4", "div"],
-          class_=re.compile(r"header|cat|sport|title", re.I),
-      )
+        if not title or title.lower() == "unknown channel":
+          # Intentar extraer el título del atributo alt/title si el texto falló
+          title = a.get("title") or a.get("alt") or ""
 
-      # Alternativa universal: agrupar buscando el texto del bloque superior de los enlaces
-      actual_group = None
-      grupos_dict = {}
-
-      # Recorremos todos los elementos de la página principal en orden
-      for elem in soup.find_all(
-          ["h2", "h3", "h4", "div", "a"],
-          class_=re.compile(r"cat|header|title|event|item", re.I),
-      ):
-
-        # Si encontramos una cabecera de categoría (Ej: TENNIS 🎾)
-        if elem.name in ["h2", "h3", "h4"] or "category" in elem.get(
-            "class", []
-        ):
-          nombre_cat = elem.get_text(strip=True)
-          if len(nombre_cat) > 2 and nombre_cat not in grupos_dict:
-            actual_group = nombre_cat
-            grupos_dict[actual_group] = []
-
-        # Si encontramos un enlace a un canal/partido
-        elif elem.name == "a" and "watch.php?id=" in elem.get("href", ""):
-          title = elem.get_text(strip=True)
-          link = elem.get("href", "")
-
-          if link and len(title) > 2:
-            match = re.search(r"id=(\d+)", link)
-            stream_id = match.group(1) if match else ""
+        if link and len(title) > 2:
+          match = re.search(r"id=(\d+)", link)
+          if match:
+            stream_id = match.group(1)
+            player_url = f"{BASE_URL}/stream/stream-{stream_id}.php"
+          else:
             player_url = (
-                f"{BASE_URL}/stream/stream-{stream_id}.php"
-                if stream_id
-                else link
+                f"{BASE_URL}{link}" if link.startswith("/") else link
             )
 
-            # Si el elemento tenía una hora pegada, la preservamos
-            item = {
-                "name": title,
-                "image": "",
-                "url": player_url,
-                "link": player_url,
-                "isEmbed": True,
-                "embed": True,
-                "referer": f"{BASE_URL}/",
-                "userAgent": HEADERS["User-Agent"],
-                "headers": {
-                    "Referer": f"{BASE_URL}/",
-                    "User-Agent": HEADERS["User-Agent"],
-                },
-            }
+          # Buscar el encabezado de categoría más cercano hacia arriba
+          categoria = "Eventos en Directo ⚽"
+          parent = a.find_parent(
+              ["div", "table", "section"], class_=re.compile(r"cat|sport|group", re.I)
+          )
+          if parent:
+            header = parent.find(["h2", "h3", "h4", "div", "span"], class_=re.compile(r"cat|title|header", re.I))
+            if header:
+              cat_text = header.get_text(strip=True)
+              if len(cat_text) > 2:
+                categoria = cat_text
 
-            cat_key = actual_group if actual_group else "Agenda General 📺"
-            if cat_key not in grupos_dict:
-              grupos_dict[cat_key] = []
+          item = {
+              "name": title,
+              "image": "",
+              "url": player_url,
+              "link": player_url,
+              "isEmbed": True,
+              "embed": True,
+              "referer": f"{BASE_URL}/",
+              "userAgent": HEADERS["User-Agent"],
+              "headers": {
+                  "Referer": f"{BASE_URL}/",
+                  "User-Agent": HEADERS["User-Agent"],
+              },
+          }
 
-            # Evitar duplicados
-            if not any(
-                x["url"] == player_url for x in grupos_dict[cat_key]
-            ):
-              grupos_dict[cat_key].append(item)
+          if categoria not in grupos_dict:
+            grupos_dict[categoria] = []
 
-      # Convertir a estructura final
-      for cat_name, stations in grupos_dict.items():
-        if stations:
-          groups.append({"name": cat_name, "stations": stations})
+          # Evitar duplicados exactos
+          if not any(x["url"] == player_url for x in grupos_dict[categoria]):
+            grupos_dict[categoria].append(item)
 
   except Exception as e:
-    print(f"Error procesando categorías nativas: {e}")
+    print(f"Error extrayendo canales: {e}")
+
+  groups = []
+  for cat_name, stations in grupos_dict.items():
+    if stations:
+      groups.append({"name": cat_name, "stations": stations})
 
   return groups
 
 
 def main():
-  groups = obtener_eventos_por_categoria()
+  groups = obtener_eventos()
 
-  # Si no se detectaron bloques de HTML explícitos, hacemos fallback dinámico
-  if not groups:
-    print("Fallback a scraping estándar...")
-
-  data = {"name": "", "author": "Yecox", "groups": groups}
+  data = {
+      "name": "DLStreams Agenda",
+      "author": "Yecox",
+      "groups": groups,
+  }
 
   with open("dlstreams.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
-  print(
-      f"dlstreams.json generado con {len(groups)} categorías exactas de la web."
-  )
+  print(f"dlstreams.json actualizado con {len(groups)} grupos.")
 
 
 if __name__ == "__main__":
