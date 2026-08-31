@@ -12,7 +12,7 @@ HEADERS = {
     "Referer": f"{BASE_URL}/",
 }
 
-# Diccionario para clasificar deportes por palabras clave y asignar emojis
+# Diccionario de deportes ampliados y ordenados
 DEPORTES_MAP = {
     "Fútbol ⚽": [
         "soccer",
@@ -27,6 +27,8 @@ DEPORTES_MAP = {
         "futsal",
         "ucl",
         "uel",
+        "astro",
+        "supersport",
     ],
     "Baloncesto 🏀": [
         "basketball",
@@ -35,15 +37,6 @@ DEPORTES_MAP = {
         "acb",
         "wnba",
         "basket",
-    ],
-    "Tenis 🎾": [
-        "tennis",
-        "atp",
-        "wta",
-        "us open",
-        "wimbledon",
-        "roland garros",
-        "australian open",
     ],
     "Motor 🏎️": [
         "f1",
@@ -55,17 +48,24 @@ DEPORTES_MAP = {
         "wrc",
         "motorsport",
     ],
+    "Tenis 🎾": [
+        "tennis",
+        "atp",
+        "wta",
+        "us open",
+        "wimbledon",
+        "roland garros",
+        "australian open",
+    ],
     "Combate / MMA 🥊": ["ufc", "boxing", "wwe", "mma", "boxeo", "aew"],
     "Ciclismo 🚴": ["cycling", "ciclismo", "tour", "vuelta", "giro"],
     "Béisbol ⚾": ["baseball", "mlb"],
     "Fútbol Americano 🏈": ["nfl", "american football"],
     "Hockey 🏒": ["hockey", "nhl"],
-    "Rugby 🏉": ["rugby", "six nations"],
 }
 
 
 def clasificar_deporte(titulo):
-  """Detecta la categoría analizando el nombre del evento."""
   titulo_lower = titulo.lower()
   for deporte, keywords in DEPORTES_MAP.items():
     for kw in keywords:
@@ -121,8 +121,16 @@ def obtener_eventos_organizados():
     print(f"Error durante el scraping: {e}")
 
   groups = []
-  for cat_name, stations in grupos_dict.items():
-    groups.append({"name": cat_name, "stations": stations})
+  # Añadir categorías principales ordenadas
+  for cat in DEPORTES_MAP.keys():
+    if cat in grupos_dict:
+      groups.append({"name": cat, "stations": grupos_dict[cat]})
+
+  # Dejar "Otros Deportes" al final de la lista
+  if "Otros Deportes 📺" in grupos_dict:
+    groups.append(
+        {"name": "Otros Deportes 📺", "stations": grupos_dict["Otros Deportes 📺"]}
+    )
 
   return groups
 
@@ -130,12 +138,13 @@ def obtener_eventos_organizados():
 def main():
   groups = obtener_eventos_organizados()
 
-  data = {"name": "DLStreams por Deportes", "author": "Yecox", "groups": groups}
+  # Dejar 'name' vacío a nivel raíz elimina el prefijo repetido en el menú lateral
+  data = {"name": "", "author": "Yecox", "groups": groups}
 
   with open("dlstreams.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
-  print(f"dlstreams.json generado con {len(groups)} categorías.")
+  print(f"dlstreams.json actualizado con {len(groups)} categorías limpias.")
 
 
 if __name__ == "__main__":
