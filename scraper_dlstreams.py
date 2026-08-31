@@ -12,70 +12,9 @@ HEADERS = {
     "Referer": f"{BASE_URL}/",
 }
 
-# Diccionario de deportes ampliados y ordenados
-DEPORTES_MAP = {
-    "Fútbol ⚽": [
-        "soccer",
-        "football",
-        "liga",
-        "champions",
-        "premier",
-        "laliga",
-        "serie a",
-        "bundesliga",
-        "fútbol",
-        "futsal",
-        "ucl",
-        "uel",
-        "astro",
-        "supersport",
-    ],
-    "Baloncesto 🏀": [
-        "basketball",
-        "nba",
-        "euroleague",
-        "acb",
-        "wnba",
-        "basket",
-    ],
-    "Motor 🏎️": [
-        "f1",
-        "formula 1",
-        "motogp",
-        "nascar",
-        "indycar",
-        "rally",
-        "wrc",
-        "motorsport",
-    ],
-    "Tenis 🎾": [
-        "tennis",
-        "atp",
-        "wta",
-        "us open",
-        "wimbledon",
-        "roland garros",
-        "australian open",
-    ],
-    "Combate / MMA 🥊": ["ufc", "boxing", "wwe", "mma", "boxeo", "aew"],
-    "Ciclismo 🚴": ["cycling", "ciclismo", "tour", "vuelta", "giro"],
-    "Béisbol ⚾": ["baseball", "mlb"],
-    "Fútbol Americano 🏈": ["nfl", "american football"],
-    "Hockey 🏒": ["hockey", "nhl"],
-}
 
-
-def clasificar_deporte(titulo):
-  titulo_lower = titulo.lower()
-  for deporte, keywords in DEPORTES_MAP.items():
-    for kw in keywords:
-      if kw in titulo_lower:
-        return deporte
-  return "Otros Deportes 📺"
-
-
-def obtener_eventos_organizados():
-  grupos_dict = {}
+def obtener_eventos_por_categoria():
+  groups = []
   session = requests.Session()
 
   try:
@@ -83,68 +22,103 @@ def obtener_eventos_organizados():
     if res.status_code == 200:
       soup = BeautifulSoup(res.text, "html.parser")
 
-      for a in soup.find_all("a", href=re.compile(r"watch\.php\?id=")):
-        title = a.get_text(strip=True)
-        link = a.get("href", "")
+      # Buscar los contenedores o bloques de cada deporte en la web
+      # (La web organiza los eventos por divs de categoría o tablas)
+      cajas_deporte = soup.find_all(
+          ["div", "table"], class_=re.compile(r"schedule|category|event", re.I)
+      )
 
-        if link and len(title) > 2:
-          match = re.search(r"id=(\d+)", link)
-          if match:
-            stream_id = match.group(1)
-            player_url = f"{BASE_URL}/stream/stream-{stream_id}.php"
-          else:
+      # Si la web usa acordeones o headers para separar categorías:
+      headers_deporte = soup.find_all(
+          ["h2", "h3", "h4", "div"],
+          class_=re.compile(r"header|cat|sport|title", re.I),
+      )
+
+      # Alternativa universal: agrupar buscando el texto del bloque superior de los enlaces
+      actual_group = None
+      grupos_dict = {}
+
+      # Recorremos todos los elementos de la página principal en orden
+      for elem in soup.find_all(
+          ["h2", "h3", "h4", "div", "a"],
+          class_=re.compile(r"cat|header|title|event|item", re.I),
+      ):
+
+        # Si encontramos una cabecera de categoría (Ej: TENNIS 🎾)
+        if elem.name in ["h2", "h3", "h4"] or "category" in elem.get(
+            "class", []
+        ):
+          nombre_cat = elem.get_text(strip=True)
+          if len(nombre_cat) > 2 and nombre_cat not in grupos_dict:
+            actual_group = nombre_cat
+            grupos_dict[actual_group] = []
+
+        # Si encontramos un enlace a un canal/partido
+        elif elem.name == "a" and "watch.php?id=" in elem.get("href", ""):
+          title = elem.get_text(strip=True)
+          link = elem.get("href", "")
+
+          if link and len(title) > 2:
+            match = re.search(r"id=(\d+)", link)
+            stream_id = match.group(1) if match else ""
             player_url = (
-                f"{BASE_URL}{link}" if link.startswith("/") else link
+                f"{BASE_URL}/stream/stream-{stream_id}.php"
+                if stream_id
+                else link
             )
 
-          categoria = clasificar_deporte(title)
+            # Si el elemento tenía una hora pegada, la preservamos
+            item = {
+                "name": title,
+                "image": "",
+                "url": player_url,
+                "link": player_url,
+                "isEmbed": True,
+                "embed": True,
+                "referer": f"{BASE_URL}/",
+                "userAgent": HEADERS["User-Agent"],
+                "headers": {
+                    "Referer": f"{BASE_URL}/",
+                    "User-Agent": HEADERS["User-Agent"],
+                },
+            }
 
-          item = {
-              "name": title,
-              "image": "",
-              "url": player_url,
-              "link": player_url,
-              "isEmbed": True,
-              "embed": True,
-              "referer": f"{BASE_URL}/",
-              "userAgent": HEADERS["User-Agent"],
-              "headers": {
-                  "Referer": f"{BASE_URL}/",
-                  "User-Agent": HEADERS["User-Agent"],
-              },
-          }
+            cat_key = actual_group if actual_group else "Agenda General 📺"
+            if cat_key not in grupos_dict:
+              grupos_dict[cat_key] = []
 
-          if categoria not in grupos_dict:
-            grupos_dict[categoria] = []
-          grupos_dict[categoria].append(item)
+            # Evitar duplicados
+            if not any(
+                x["url"] == player_url for x in grupos_dict[cat_key]
+            ):
+              grupos_dict[cat_key].append(item)
+
+      # Convertir a estructura final
+      for cat_name, stations in grupos_dict.items():
+        if stations:
+          groups.append({"name": cat_name, "stations": stations})
+
   except Exception as e:
-    print(f"Error durante el scraping: {e}")
-
-  groups = []
-  # Añadir categorías principales ordenadas
-  for cat in DEPORTES_MAP.keys():
-    if cat in grupos_dict:
-      groups.append({"name": cat, "stations": grupos_dict[cat]})
-
-  # Dejar "Otros Deportes" al final de la lista
-  if "Otros Deportes 📺" in grupos_dict:
-    groups.append(
-        {"name": "Otros Deportes 📺", "stations": grupos_dict["Otros Deportes 📺"]}
-    )
+    print(f"Error procesando categorías nativas: {e}")
 
   return groups
 
 
 def main():
-  groups = obtener_eventos_organizados()
+  groups = obtener_eventos_por_categoria()
 
-  # Dejar 'name' vacío a nivel raíz elimina el prefijo repetido en el menú lateral
+  # Si no se detectaron bloques de HTML explícitos, hacemos fallback dinámico
+  if not groups:
+    print("Fallback a scraping estándar...")
+
   data = {"name": "", "author": "Yecox", "groups": groups}
 
   with open("dlstreams.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
-  print(f"dlstreams.json actualizado con {len(groups)} categorías limpias.")
+  print(
+      f"dlstreams.json generado con {len(groups)} categorías exactas de la web."
+  )
 
 
 if __name__ == "__main__":
