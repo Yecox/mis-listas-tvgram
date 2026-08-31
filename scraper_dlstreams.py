@@ -12,7 +12,7 @@ HEADERS = {
     "Referer": f"{BASE_URL}/",
 }
 
-# Reglas de clasificación por deporte
+# Diccionario de clasificación por deportes
 DEPORTES_MAP = {
     "Fútbol ⚽": [
         "soccer",
@@ -29,6 +29,7 @@ DEPORTES_MAP = {
         "uel",
         "astro",
         "supersport",
+        "bein",
     ],
     "Baloncesto 🏀": [
         "basketball",
@@ -67,31 +68,40 @@ def clasificar(titulo):
   for dep, kw_list in DEPORTES_MAP.items():
     if any(kw in titulo_low for kw in kw_list):
       return dep
-  return "Otros Deportes 📺"
+  return "Canales 24/7 y Otros 📺"
 
 
 def main():
   session = requests.Session()
   dict_grupos = {}
 
+  # 1. Obtener canales masivos mediante la estructura de canales 24/7 / streaming directo
   try:
     res = session.get(f"{BASE_URL}/", headers=HEADERS, timeout=15)
     if res.status_code == 200:
       soup = BeautifulSoup(res.text, "html.parser")
 
-      for a in soup.find_all("a", href=re.compile(r"watch\.php\?id=")):
-        title = a.get_text(strip=True)
-        link = a.get("href", "")
+      # Buscamos todos los enlaces de watch.php o stream directos
+      for a in soup.find_all("a", href=True):
+        href = a.get("href", "")
+        if "watch.php?id=" in href or "stream-" in href:
+          title = a.get_text(strip=True)
+          if not title or len(title) <= 1:
+            continue
 
-        if link and len(title) > 2:
-          match = re.search(r"id=(\d+)", link)
+          match = re.search(r"id=(\d+)", href)
           if match:
             stream_id = match.group(1)
             player_url = f"{BASE_URL}/stream/stream-{stream_id}.php"
           else:
-            player_url = (
-                f"{BASE_URL}{link}" if link.startswith("/") else link
-            )
+            match_stream = re.search(r"stream-(\d+)", href)
+            if match_stream:
+              stream_id = match_stream.group(1)
+              player_url = f"{BASE_URL}/stream/stream-{stream_id}.php"
+            else:
+              player_url = (
+                  f"{BASE_URL}{href}" if href.startswith("/") else href
+              )
 
           categoria = clasificar(title)
 
@@ -112,27 +122,33 @@ def main():
 
           if categoria not in dict_grupos:
             dict_grupos[categoria] = []
-          dict_grupos[categoria].append(item)
-  except Exception as e:
-    print(f"Error scraping: {e}")
 
-  # Construir grupos para TVGram
+          # Evitar duplicados exactos por URL
+          if not any(x["url"] == player_url for x in dict_grupos[categoria]):
+            dict_grupos[categoria].append(item)
+  except Exception as e:
+    print(f"Error extrayendo canales: {e}")
+
+  # Construir orden de grupos
   groups = []
   for cat in DEPORTES_MAP.keys():
     if cat in dict_grupos:
       groups.append({"name": cat, "stations": dict_grupos[cat]})
 
-  if "Otros Deportes 📺" in dict_grupos:
-    groups.append(
-        {"name": "Otros Deportes 📺", "stations": dict_grupos["Otros Deportes 📺"]}
-    )
+  if "Canales 24/7 y Otros 📺" in dict_grupos:
+    groups.append({
+        "name": "Canales 24/7 y Otros 📺",
+        "stations": dict_grupos["Canales 24/7 y Otros 📺"],
+    })
 
   data = {"name": "", "author": "Yecox", "groups": groups}
 
   with open("dlstreams.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
-  print(f"Lista generada exitosamente con {len(groups)} secciones.")
+  print(
+      "Lista regenerada con éxito integrando todos los canales disponibles."
+  )
 
 
 if __name__ == "__main__":
