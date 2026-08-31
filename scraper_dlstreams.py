@@ -6,31 +6,82 @@ from bs4 import BeautifulSoup
 BASE_URL = "https://dlstreams.st"
 HEADERS = {
     "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,"
-        " like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like"
+        " Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
     ),
     "Referer": f"{BASE_URL}/",
 }
 
+# Reglas de clasificación por deporte
+DEPORTES_MAP = {
+    "Fútbol ⚽": [
+        "soccer",
+        "football",
+        "liga",
+        "champions",
+        "premier",
+        "laliga",
+        "serie a",
+        "bundesliga",
+        "fútbol",
+        "futsal",
+        "ucl",
+        "uel",
+        "astro",
+        "supersport",
+    ],
+    "Baloncesto 🏀": [
+        "basketball",
+        "nba",
+        "euroleague",
+        "acb",
+        "wnba",
+        "basket",
+    ],
+    "Tenis 🎾": [
+        "tennis",
+        "atp",
+        "wta",
+        "us open",
+        "wimbledon",
+        "roland garros",
+    ],
+    "Motor 🏎️": [
+        "f1",
+        "formula 1",
+        "motogp",
+        "nascar",
+        "indycar",
+        "rally",
+        "wrc",
+        "motorsport",
+    ],
+    "Combate / MMA 🥊": ["ufc", "boxing", "wwe", "mma", "boxeo", "aew"],
+    "Ciclismo 🚴": ["cycling", "ciclismo", "tour", "vuelta", "giro"],
+    "Béisbol ⚾": ["baseball", "mlb"],
+}
 
-def obtener_eventos():
-  grupos_dict = {}
+
+def clasificar(titulo):
+  titulo_low = titulo.lower()
+  for dep, kw_list in DEPORTES_MAP.items():
+    if any(kw in titulo_low for kw in kw_list):
+      return dep
+  return "Otros Deportes 📺"
+
+
+def main():
   session = requests.Session()
+  dict_grupos = {}
 
   try:
     res = session.get(f"{BASE_URL}/", headers=HEADERS, timeout=15)
     if res.status_code == 200:
       soup = BeautifulSoup(res.text, "html.parser")
 
-      # Buscamos cada enlace de partido dentro de su contenedor de evento
       for a in soup.find_all("a", href=re.compile(r"watch\.php\?id=")):
-        # Forzar extracción del texto limpio ignorando etiquetas hijas desalineadas
-        title = " ".join(a.stripped_strings)
+        title = a.get_text(strip=True)
         link = a.get("href", "")
-
-        if not title or title.lower() == "unknown channel":
-          # Intentar extraer el título del atributo alt/title si el texto falló
-          title = a.get("title") or a.get("alt") or ""
 
         if link and len(title) > 2:
           match = re.search(r"id=(\d+)", link)
@@ -42,17 +93,7 @@ def obtener_eventos():
                 f"{BASE_URL}{link}" if link.startswith("/") else link
             )
 
-          # Buscar el encabezado de categoría más cercano hacia arriba
-          categoria = "Eventos en Directo ⚽"
-          parent = a.find_parent(
-              ["div", "table", "section"], class_=re.compile(r"cat|sport|group", re.I)
-          )
-          if parent:
-            header = parent.find(["h2", "h3", "h4", "div", "span"], class_=re.compile(r"cat|title|header", re.I))
-            if header:
-              cat_text = header.get_text(strip=True)
-              if len(cat_text) > 2:
-                categoria = cat_text
+          categoria = clasificar(title)
 
           item = {
               "name": title,
@@ -69,37 +110,29 @@ def obtener_eventos():
               },
           }
 
-          if categoria not in grupos_dict:
-            grupos_dict[categoria] = []
-
-          # Evitar duplicados exactos
-          if not any(x["url"] == player_url for x in grupos_dict[categoria]):
-            grupos_dict[categoria].append(item)
-
+          if categoria not in dict_grupos:
+            dict_grupos[categoria] = []
+          dict_grupos[categoria].append(item)
   except Exception as e:
-    print(f"Error extrayendo canales: {e}")
+    print(f"Error scraping: {e}")
 
+  # Construir grupos para TVGram
   groups = []
-  for cat_name, stations in grupos_dict.items():
-    if stations:
-      groups.append({"name": cat_name, "stations": stations})
+  for cat in DEPORTES_MAP.keys():
+    if cat in dict_grupos:
+      groups.append({"name": cat, "stations": dict_grupos[cat]})
 
-  return groups
+  if "Otros Deportes 📺" in dict_grupos:
+    groups.append(
+        {"name": "Otros Deportes 📺", "stations": dict_grupos["Otros Deportes 📺"]}
+    )
 
-
-def main():
-  groups = obtener_eventos()
-
-  data = {
-      "name": "DLStreams Agenda",
-      "author": "Yecox",
-      "groups": groups,
-  }
+  data = {"name": "", "author": "Yecox", "groups": groups}
 
   with open("dlstreams.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
-  print(f"dlstreams.json actualizado con {len(groups)} grupos.")
+  print(f"Lista generada exitosamente con {len(groups)} secciones.")
 
 
 if __name__ == "__main__":
