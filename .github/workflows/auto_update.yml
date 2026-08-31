@@ -1,15 +1,15 @@
-name: Actualizador Dual TVGram
+name: Actualizador TVGram (DLStreams y FCTV)
 
 on:
   schedule:
     - cron: '0 */2 * * *'  # Se ejecuta automáticamente cada 2 horas
-  workflow_dispatch:        # Permite ejecutarlo manualmente con un botón
+  workflow_dispatch:        # Permite ejecutarlo manualmente
 
 jobs:
   run-scrapers:
     runs-on: ubuntu-latest
     steps:
-      - name: Descargar Código
+      - name: Descargar repositorio
         uses: actions/checkout@v4
 
       - name: Configurar Python
@@ -17,19 +17,21 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Instalar Librerías
-        run: pip install requests beautifulsoup4
+      - name: Instalar librerías necesarias
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
 
-      - name: Ejecutar Scraper 1 (FCTV)
-        run: python scraper_fctv.py
-
-      - name: Ejecutar Scraper 2 (DLStreams)
+      - name: Ejecutar DLStreams
         run: python scraper_dlstreams.py
 
-      - name: Guardar y Publicar JSONs
+      - name: Ejecutar FCTV
+        run: python scraper_fctv.py
+
+      - name: Guardar cambios
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add fctv.json dlstreams.json
-          git commit -m "Listas actualizadas automáticamente para TVGram" || exit 0
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add dlstreams.json fctv.json
+          git commit -m "Auto-actualización de DLStreams y FCTV" || exit 0
           git push
