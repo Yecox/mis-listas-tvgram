@@ -2,7 +2,19 @@
   "categories": [
     {
       "name": "Riverlanes / FCTV ⚽",
-      "items": []
+      "items": [
+        {
+          "name": "🔴 Canal Directo FCTV #1",
+          "title": "FCTV Stream 1",
+          "channel": "FCTV 33",
+          "url": "https://www.fctv33.com/",
+          "poster": "",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            "Referer": "https://riverlanes.site/"
+          }
+        }
+      ]
     }
   ]
 }
