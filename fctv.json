@@ -1,18 +1,16 @@
 {
-  "categories": [
+  "name": "FCTV / Riverlanes",
+  "author": "Yecox",
+  "groups": [
     {
-      "name": "Riverlanes / FCTV ⚽",
-      "items": [
+      "name": "FCTV / Riverlanes ⚽",
+      "stations": [
         {
-          "name": "🔴 Canal Directo FCTV #1",
-          "title": "FCTV Stream 1",
-          "channel": "FCTV / Riverlanes",
+          "name": "Directo FCTV #1",
+          "image": "",
           "url": "https://www.fctv33.com/",
-          "poster": "",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-            "Referer": "https://riverlanes.site/"
-          }
+          "isEmbed": "true",
+          "referer": "https://www.fctv33.com/"
         }
       ]
     }
