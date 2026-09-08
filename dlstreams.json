@@ -1389,6 +1389,48 @@
           }
         },
         {
+          "name": "FloRacing",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-20.php",
+          "link": "https://dlstreams.st/stream/stream-20.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "DIRTVision",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-21.php",
+          "link": "https://dlstreams.st/stream/stream-21.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Event PPV",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-22.php",
+          "link": "https://dlstreams.st/stream/stream-22.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
           "name": "BB Cam Live",
           "image": "",
           "url": "https://dlstreams.st/stream/stream-892.php",
@@ -3433,20 +3475,6 @@
           }
         },
         {
-          "name": "Blue Sport 6 Live",
-          "image": "",
-          "url": "https://dlstreams.st/stream/stream-20.php",
-          "link": "https://dlstreams.st/stream/stream-20.php",
-          "isEmbed": true,
-          "embed": true,
-          "referer": "https://dlstreams.st/",
-          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-          "headers": {
-            "Referer": "https://dlstreams.st/",
-            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
-          }
-        },
-        {
           "name": "Space Brazil",
           "image": "",
           "url": "https://dlstreams.st/stream/stream-19.php",
@@ -3885,20 +3913,6 @@
           "image": "",
           "url": "https://dlstreams.st/stream/stream-28.php",
           "link": "https://dlstreams.st/stream/stream-28.php",
-          "isEmbed": true,
-          "embed": true,
-          "referer": "https://dlstreams.st/",
-          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-          "headers": {
-            "Referer": "https://dlstreams.st/",
-            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
-          }
-        },
-        {
-          "name": "CBC Sport Azerbaijan",
-          "image": "",
-          "url": "https://dlstreams.st/stream/stream-21.php",
-          "link": "https://dlstreams.st/stream/stream-21.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
@@ -5481,20 +5495,6 @@
           "image": "",
           "url": "https://dlstreams.st/stream/stream-625.php",
           "link": "https://dlstreams.st/stream/stream-625.php",
-          "isEmbed": true,
-          "embed": true,
-          "referer": "https://dlstreams.st/",
-          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-          "headers": {
-            "Referer": "https://dlstreams.st/",
-            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
-          }
-        },
-        {
-          "name": "Blue Sport D 2",
-          "image": "",
-          "url": "https://dlstreams.st/stream/stream-22.php",
-          "link": "https://dlstreams.st/stream/stream-22.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
