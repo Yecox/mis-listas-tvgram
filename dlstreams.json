@@ -270,6 +270,76 @@
             "Referer": "https://dlstreams.st/",
             "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
           }
+        },
+        {
+          "name": "beIN Sports MENA 4",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-94.php",
+          "link": "https://dlstreams.st/stream/stream-94.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Match! Football 3 Russia",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-138.php",
+          "link": "https://dlstreams.st/stream/stream-138.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "beIN Sports MENA English 2",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-90.php",
+          "link": "https://dlstreams.st/stream/stream-90.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Fox Soccer Plus",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-756.php",
+          "link": "https://dlstreams.st/stream/stream-756.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Liga 1 Max Peru",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1.php",
+          "link": "https://dlstreams.st/stream/stream-1.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
         }
       ]
     },
@@ -279,8 +349,78 @@
         {
           "name": "WNBA League Pass",
           "image": "",
+          "url": "https://dlstreams.st/stream/stream-4070.php",
+          "link": "https://dlstreams.st/stream/stream-4070.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "WNBA League Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4072.php",
+          "link": "https://dlstreams.st/stream/stream-4072.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "WNBA League Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4071.php",
+          "link": "https://dlstreams.st/stream/stream-4071.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "WNBA League Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4073.php",
+          "link": "https://dlstreams.st/stream/stream-4073.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "WNBA League Pass",
+          "image": "",
           "url": "https://dlstreams.st/stream/stream-59.php",
           "link": "https://dlstreams.st/stream/stream-59.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "WNBA League Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4074.php",
+          "link": "https://dlstreams.st/stream/stream-4074.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
@@ -448,6 +588,328 @@
             "Referer": "https://dlstreams.st/",
             "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
           }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1520.php",
+          "link": "https://dlstreams.st/stream/stream-1520.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1524.php",
+          "link": "https://dlstreams.st/stream/stream-1524.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1507.php",
+          "link": "https://dlstreams.st/stream/stream-1507.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1654.php",
+          "link": "https://dlstreams.st/stream/stream-1654.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1669.php",
+          "link": "https://dlstreams.st/stream/stream-1669.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1665.php",
+          "link": "https://dlstreams.st/stream/stream-1665.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1508.php",
+          "link": "https://dlstreams.st/stream/stream-1508.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1667.php",
+          "link": "https://dlstreams.st/stream/stream-1667.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1668.php",
+          "link": "https://dlstreams.st/stream/stream-1668.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1652.php",
+          "link": "https://dlstreams.st/stream/stream-1652.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1653.php",
+          "link": "https://dlstreams.st/stream/stream-1653.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1661.php",
+          "link": "https://dlstreams.st/stream/stream-1661.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1651.php",
+          "link": "https://dlstreams.st/stream/stream-1651.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1650.php",
+          "link": "https://dlstreams.st/stream/stream-1650.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1657.php",
+          "link": "https://dlstreams.st/stream/stream-1657.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1666.php",
+          "link": "https://dlstreams.st/stream/stream-1666.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1664.php",
+          "link": "https://dlstreams.st/stream/stream-1664.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1655.php",
+          "link": "https://dlstreams.st/stream/stream-1655.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1662.php",
+          "link": "https://dlstreams.st/stream/stream-1662.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1663.php",
+          "link": "https://dlstreams.st/stream/stream-1663.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1659.php",
+          "link": "https://dlstreams.st/stream/stream-1659.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1658.php",
+          "link": "https://dlstreams.st/stream/stream-1658.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Tennis Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1660.php",
+          "link": "https://dlstreams.st/stream/stream-1660.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
         }
       ]
     },
@@ -593,8 +1055,36 @@
         {
           "name": "MLB League Pass",
           "image": "",
+          "url": "https://dlstreams.st/stream/stream-4021.php",
+          "link": "https://dlstreams.st/stream/stream-4021.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "MLB League Pass",
+          "image": "",
           "url": "https://dlstreams.st/stream/stream-7.php",
           "link": "https://dlstreams.st/stream/stream-7.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "MLB League Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4022.php",
+          "link": "https://dlstreams.st/stream/stream-4022.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
@@ -621,8 +1111,36 @@
         {
           "name": "MLB League Pass",
           "image": "",
+          "url": "https://dlstreams.st/stream/stream-4023.php",
+          "link": "https://dlstreams.st/stream/stream-4023.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "MLB League Pass",
+          "image": "",
           "url": "https://dlstreams.st/stream/stream-9.php",
           "link": "https://dlstreams.st/stream/stream-9.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "MLB League Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4024.php",
+          "link": "https://dlstreams.st/stream/stream-4024.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
@@ -649,8 +1167,36 @@
         {
           "name": "MLB League Pass",
           "image": "",
+          "url": "https://dlstreams.st/stream/stream-4025.php",
+          "link": "https://dlstreams.st/stream/stream-4025.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "MLB League Pass",
+          "image": "",
           "url": "https://dlstreams.st/stream/stream-11.php",
           "link": "https://dlstreams.st/stream/stream-11.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "MLB League Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4026.php",
+          "link": "https://dlstreams.st/stream/stream-4026.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
@@ -677,8 +1223,36 @@
         {
           "name": "MLB League Pass",
           "image": "",
+          "url": "https://dlstreams.st/stream/stream-4027.php",
+          "link": "https://dlstreams.st/stream/stream-4027.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "MLB League Pass",
+          "image": "",
           "url": "https://dlstreams.st/stream/stream-13.php",
           "link": "https://dlstreams.st/stream/stream-13.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "MLB League Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4028.php",
+          "link": "https://dlstreams.st/stream/stream-4028.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
@@ -705,8 +1279,50 @@
         {
           "name": "MLB League Pass",
           "image": "",
+          "url": "https://dlstreams.st/stream/stream-4029.php",
+          "link": "https://dlstreams.st/stream/stream-4029.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "MLB League Pass",
+          "image": "",
           "url": "https://dlstreams.st/stream/stream-15.php",
           "link": "https://dlstreams.st/stream/stream-15.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "MLB League Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4030.php",
+          "link": "https://dlstreams.st/stream/stream-4030.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "MLB League Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-17.php",
+          "link": "https://dlstreams.st/stream/stream-17.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
@@ -754,6 +1370,34 @@
           "image": "",
           "url": "https://dlstreams.st/stream/stream-405.php",
           "link": "https://dlstreams.st/stream/stream-405.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "DIRTVision PPV",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-105.php",
+          "link": "https://dlstreams.st/stream/stream-105.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Backup Stream",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-5010.php",
+          "link": "https://dlstreams.st/stream/stream-5010.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
@@ -1286,20 +1930,6 @@
           "image": "",
           "url": "https://dlstreams.st/stream/stream-1230.php",
           "link": "https://dlstreams.st/stream/stream-1230.php",
-          "isEmbed": true,
-          "embed": true,
-          "referer": "https://dlstreams.st/",
-          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-          "headers": {
-            "Referer": "https://dlstreams.st/",
-            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
-          }
-        },
-        {
-          "name": "Sky Sports+",
-          "image": "",
-          "url": "https://dlstreams.st/stream/stream-105.php",
-          "link": "https://dlstreams.st/stream/stream-105.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
@@ -4558,6 +5188,20 @@
           }
         },
         {
+          "name": "NHL Game Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4060.php",
+          "link": "https://dlstreams.st/stream/stream-4060.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
           "name": "NHL Network USA",
           "image": "",
           "url": "https://dlstreams.st/stream/stream-663.php",
@@ -4586,10 +5230,52 @@
           }
         },
         {
+          "name": "NHL Game Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4064.php",
+          "link": "https://dlstreams.st/stream/stream-4064.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "NHL Game Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4061.php",
+          "link": "https://dlstreams.st/stream/stream-4061.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
           "name": "NHL Gamecenter",
           "image": "",
           "url": "https://dlstreams.st/stream/stream-19.php",
           "link": "https://dlstreams.st/stream/stream-19.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "NHL Game Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4062.php",
+          "link": "https://dlstreams.st/stream/stream-4062.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
@@ -4628,10 +5314,38 @@
           }
         },
         {
+          "name": "NHL Game Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4063.php",
+          "link": "https://dlstreams.st/stream/stream-4063.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
           "name": "NHL Gamecenter",
           "image": "",
           "url": "https://dlstreams.st/stream/stream-21.php",
           "link": "https://dlstreams.st/stream/stream-21.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "NHL Game Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4066.php",
+          "link": "https://dlstreams.st/stream/stream-4066.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
@@ -4670,10 +5384,38 @@
           }
         },
         {
+          "name": "NHL Game Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4065.php",
+          "link": "https://dlstreams.st/stream/stream-4065.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
           "name": "NHL Gamecenter",
           "image": "",
           "url": "https://dlstreams.st/stream/stream-25.php",
           "link": "https://dlstreams.st/stream/stream-25.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "NHL Game Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4067.php",
+          "link": "https://dlstreams.st/stream/stream-4067.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
@@ -4698,10 +5440,38 @@
           }
         },
         {
+          "name": "NHL Game Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4069.php",
+          "link": "https://dlstreams.st/stream/stream-4069.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
           "name": "NHL Gamecenter",
           "image": "",
           "url": "https://dlstreams.st/stream/stream-24.php",
           "link": "https://dlstreams.st/stream/stream-24.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "NHL Game Pass",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-4068.php",
+          "link": "https://dlstreams.st/stream/stream-4068.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
@@ -4758,6 +5528,566 @@
           "image": "",
           "url": "https://dlstreams.st/stream/stream-134.php",
           "link": "https://dlstreams.st/stream/stream-134.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "OlympiaTV",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-5000.php",
+          "link": "https://dlstreams.st/stream/stream-5000.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "VH1 USA",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-344.php",
+          "link": "https://dlstreams.st/stream/stream-344.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Discovery Turbo",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-661.php",
+          "link": "https://dlstreams.st/stream/stream-661.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Cleo TV USA",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-715.php",
+          "link": "https://dlstreams.st/stream/stream-715.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "SYFY USA",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-373.php",
+          "link": "https://dlstreams.st/stream/stream-373.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Discovery USA",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-313.php",
+          "link": "https://dlstreams.st/stream/stream-313.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "BBC America",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-305.php",
+          "link": "https://dlstreams.st/stream/stream-305.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Fox Sports 2 USA",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-758.php",
+          "link": "https://dlstreams.st/stream/stream-758.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "TDP Spain",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-529.php",
+          "link": "https://dlstreams.st/stream/stream-529.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Oneplay Sport 1 CZ",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1027.php",
+          "link": "https://dlstreams.st/stream/stream-1027.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Sportdigital FUSSBALL DE",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-571.php",
+          "link": "https://dlstreams.st/stream/stream-571.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "SONY TEN 1 HD",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-885.php",
+          "link": "https://dlstreams.st/stream/stream-885.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Sportklub 5 Croatia",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-28.php",
+          "link": "https://dlstreams.st/stream/stream-28.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Sport TV1 Portugal",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-49.php",
+          "link": "https://dlstreams.st/stream/stream-49.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "NBC Universo",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-845.php",
+          "link": "https://dlstreams.st/stream/stream-845.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "ORF Sport Plus",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-2.php",
+          "link": "https://dlstreams.st/stream/stream-2.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "ESPN3 Argentina",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-798.php",
+          "link": "https://dlstreams.st/stream/stream-798.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "MUTV UK",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-377.php",
+          "link": "https://dlstreams.st/stream/stream-377.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "TUDN USA",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-66.php",
+          "link": "https://dlstreams.st/stream/stream-66.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Cytavision Sports 6 Cyprus",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-916.php",
+          "link": "https://dlstreams.st/stream/stream-916.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Ziggo Sport 5 NL",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-383.php",
+          "link": "https://dlstreams.st/stream/stream-383.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Sportklub 7 Croatia",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-29.php",
+          "link": "https://dlstreams.st/stream/stream-29.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Sportklub 8 Croatia",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-30.php",
+          "link": "https://dlstreams.st/stream/stream-30.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Sport TV4 Portugal",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-289.php",
+          "link": "https://dlstreams.st/stream/stream-289.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Sport TV3 Portugal",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-454.php",
+          "link": "https://dlstreams.st/stream/stream-454.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Channel Not Listed #JustAsk",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-1656.php",
+          "link": "https://dlstreams.st/stream/stream-1656.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Sky Sport 2 NZ",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-589.php",
+          "link": "https://dlstreams.st/stream/stream-589.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Fox Sports Premium MX",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-830.php",
+          "link": "https://dlstreams.st/stream/stream-830.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "RDS 2 CA",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-840.php",
+          "link": "https://dlstreams.st/stream/stream-840.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "USA Network",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-343.php",
+          "link": "https://dlstreams.st/stream/stream-343.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Sky Sports Mix UK",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-449.php",
+          "link": "https://dlstreams.st/stream/stream-449.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "CNBC USA",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-309.php",
+          "link": "https://dlstreams.st/stream/stream-309.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Porto Canal Portugal",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-718.php",
+          "link": "https://dlstreams.st/stream/stream-718.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "NHL Gamecenter",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-14.php",
+          "link": "https://dlstreams.st/stream/stream-14.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "NHL Gamecenter",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-15.php",
+          "link": "https://dlstreams.st/stream/stream-15.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "TV4 Sport Live 4 Sweden",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-706.php",
+          "link": "https://dlstreams.st/stream/stream-706.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Arena Sport 1 Croatia",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-432.php",
+          "link": "https://dlstreams.st/stream/stream-432.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "Sportv2 Brazil",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-79.php",
+          "link": "https://dlstreams.st/stream/stream-79.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "SEC Network USA",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-385.php",
+          "link": "https://dlstreams.st/stream/stream-385.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "ACC Network USA",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-664.php",
+          "link": "https://dlstreams.st/stream/stream-664.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
