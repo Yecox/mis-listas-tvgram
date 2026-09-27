@@ -1951,8 +1951,8 @@
         {
           "name": "Event PPV",
           "image": "",
-          "url": "https://dlstreams.st/stream/stream-8.php",
-          "link": "https://dlstreams.st/stream/stream-8.php",
+          "url": "https://dlstreams.st/stream/stream-1250.php",
+          "link": "https://dlstreams.st/stream/stream-1250.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
@@ -3983,6 +3983,20 @@
           "image": "",
           "url": "https://dlstreams.st/stream/stream-1214.php",
           "link": "https://dlstreams.st/stream/stream-1214.php",
+          "isEmbed": true,
+          "embed": true,
+          "referer": "https://dlstreams.st/",
+          "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+          "headers": {
+            "Referer": "https://dlstreams.st/",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+          }
+        },
+        {
+          "name": "ETV 2 Estonia",
+          "image": "",
+          "url": "https://dlstreams.st/stream/stream-8.php",
+          "link": "https://dlstreams.st/stream/stream-8.php",
           "isEmbed": true,
           "embed": true,
           "referer": "https://dlstreams.st/",
